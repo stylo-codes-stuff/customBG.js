@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width=500 height="500">
+	<defs>
+		<pattern id="pattern"x=0 y=0 width=".25" height=".25">
+        <polygon points="20 0,80 0,60 60,80 80" stroke="black" fill="yellow" stroke-width="5"/>
+    	</pattern>
+    </defs>
+        <rect fill="url(#pattern)" stroke="black"
+        width="500" height="500">
+</svg>
+</body>
+</html>
