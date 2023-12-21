@@ -1,7 +1,15 @@
-var customBG = function(div,params){
-  var div = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
-
+class customBG{
+  constructor(id){
+    this.id = id;
+    this.div = document.querySelector('#'+id);
+    
   }
-  
+   box1(params){
+    
+   
+   } 
+     
+   
 }
-customBG.box1()
+BG1 = new customBG("testDiv")
+BG1.box1()
